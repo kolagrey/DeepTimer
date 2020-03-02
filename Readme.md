@@ -4,6 +4,8 @@
 
 ![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-1.png)
 
+***
+
 ![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-2.png)
 
 ## How to use this repo
