@@ -1,5 +1,23 @@
 # DeepTimer - A ReactNative CountDown Timer App
 
+## Screens
+
+![Image description](https://devpool.xyz/media/DT-1.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-2.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-3.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-4.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-5.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-6.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-7.jpeg)
+
+![Image description](https://devpool.xyz/media/DT-8.jpeg)
+
 ## How to use this repo
 
 ### Clone this repo
@@ -27,7 +45,6 @@ $ yarn install
 
 ```
 
-This will start the expo
 
 ## Testing
 
@@ -36,3 +53,8 @@ This will start the expo
     $ yarn test
 
 ```
+
+## Todo
+
+- Fix issue with iOS sound
+- Write more test
