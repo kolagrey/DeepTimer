@@ -2,11 +2,11 @@
 
 ## App Screenshots
 
-![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-1.png)
+![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-01.png)
 
 ***
 
-![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-2.png)
+![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-02.png)
 
 ## How to use this repo
 
