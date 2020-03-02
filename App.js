@@ -21,7 +21,7 @@ import ButtonGrid from './components/ButtonGrid';
 import ButtonControl from './components/ButtonControl';
 
 // Sound File
-const source = require('./assets/sound/ting.mp3');
+const source = require('./assets/sound/alarm.mp3');
 
 // Constants
 import { INVALID_INPUT_TEXT, MORE_THAN_HALF_TEXT, TIME_UP_TEXT, VIBRATION_PATTERN, ALMOST_DONE_TEXT } from './constants';
@@ -40,7 +40,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.chronos = null; // SetInterval variable
-    this.ting = null; // Sound variable
+    this.alarm = null; // Initial value for alarm controller
     this.state = {
       duration: '', // Length of countdown (collected as string but converted to )
       seconds: 60, // Number of seconds in a minute
@@ -65,17 +65,24 @@ class App extends Component {
     this.onCountDownInputChange = this.onCountDownInputChange.bind(this);
   }
 
-  async componentDidMount() {
-
+  async soundAlarm() {
     // Load the audio file into memory for future quick play
     const { sound } = await Audio.Sound.createAsync(
       source,
       {
-        shouldPlay: true
+        shouldPlay: true,
+        isLooping: true
       },
       null,
     );
-    this.ting = sound;
+    this.alarm = sound;
+    this.alarm.playAsync();
+  }
+
+  stopAlarm() {
+    setTimeout(() => {
+      this.alarm.stopAsync();
+    }, 5000);
   }
 
   // Middleware to check if the countdown cycle, and set status based on criteria
@@ -200,6 +207,7 @@ class App extends Component {
 
       // Check if start is less than zero (end of countdown) and end timer
       if (this.state.start < 0) {
+        this.soundAlarm();
         Vibration.vibrate(VIBRATION_PATTERN);
         clearInterval(this.chronos);
         this.setState({
@@ -209,6 +217,7 @@ class App extends Component {
           started: false,
           timerDisplay: '00:00'
         });
+        this.stopAlarm();
       }
 
       // Countdown interval speed
