@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimerControl/> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "margin": 5,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 28,
+        "elevation": 6,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 25,
+        "opacity": 1,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.24,
+        "shadowRadius": 6,
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityStates={Array []}
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 28,
+          },
+        ]
+      }
+    >
+      <View
+        pointerEvents="none"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 56,
+              "width": 56,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 24,
+                "width": 24,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "rotate": "0deg",
+                  },
+                ],
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimerDisplay/> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "margin": 5,
+      "width": 250,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 90,
+        "fontWeight": "300",
+      }
+    }
+  />
+</View>
+`;

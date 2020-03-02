@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1583130143267" clover="3.2.0">
+  <project timestamp="1583130143268" name="All files">
+    <metrics statements="52" coveredstatements="44" conditionals="21" coveredconditionals="11" methods="26" coveredmethods="17" elements="99" coveredelements="72" complexity="0" loc="52" ncloc="52" packages="2" files="16" classes="16"/>
+    <package name="components">
+      <metrics statements="52" coveredstatements="44" conditionals="21" coveredconditionals="11" methods="26" coveredmethods="17"/>
+      <file name="BlinkingText.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/BlinkingText.js">
+        <metrics statements="10" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="2"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="ButtonContainer.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/ButtonContainer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="ButtonControl.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/ButtonControl.js">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="ButtonGrid.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/ButtonGrid.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="TimerButton.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerButton.js">
+        <metrics statements="4" coveredstatements="3" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="TimerButtonContainer.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerButtonContainer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="TimerControl.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerControl.js">
+        <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="TimerDisplay.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerDisplay.js">
+        <metrics statements="7" coveredstatements="6" conditionals="5" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+      <file name="TimerDisplayContainer.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerDisplayContainer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="TimerInput.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerInput.js">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="TimerInputContainer.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerInputContainer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="TimerInputError.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerInputError.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="TimerInputGroup.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerInputGroup.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="TimerStatusDisplay.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TimerStatusDisplay.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+      <file name="TopContainer.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/components/TopContainer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/grey/Github/DEEP-CONSULTING/DeepTimer/styles/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>

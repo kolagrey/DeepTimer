@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGrid/> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "margin": 8,
+      "width": 100,
+    }
+  }
+/>
+`;

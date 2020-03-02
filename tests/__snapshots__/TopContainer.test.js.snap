@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopContainer/> renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "marginTop": 50,
+      "padding": 20,
+    }
+  }
+/>
+`;

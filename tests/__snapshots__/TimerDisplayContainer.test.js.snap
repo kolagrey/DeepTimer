@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimerDisplayContainer/> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "color": "#fff",
+      "flex": 4,
+      "justifyContent": "center",
+    }
+  }
+/>
+`;

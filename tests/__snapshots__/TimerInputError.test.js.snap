@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimerInputError/> renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+/>
+`;

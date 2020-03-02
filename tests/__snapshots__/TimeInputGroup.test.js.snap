@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimerInputGroup/> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+/>
+`;
