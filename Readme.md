@@ -1,22 +1,10 @@
 # DeepTimer - A ReactNative CountDown Timer App
 
-## Screens
+## App Screenshots
 
-![Image description](https://devpool.xyz/media/DT-1.jpeg)
+![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-1.png)
 
-![Image description](https://devpool.xyz/media/DT-2.jpeg)
-
-![Image description](https://devpool.xyz/media/DT-3.jpeg)
-
-![Image description](https://devpool.xyz/media/DT-4.jpeg)
-
-![Image description](https://devpool.xyz/media/DT-5.jpeg)
-
-![Image description](https://devpool.xyz/media/DT-6.jpeg)
-
-![Image description](https://devpool.xyz/media/DT-7.jpeg)
-
-![Image description](https://devpool.xyz/media/DT-8.jpeg)
+![DeepTimer Sreenshot](https://devpool.xyz/media/ScreenshotGroup-2.png)
 
 ## How to use this repo
 
