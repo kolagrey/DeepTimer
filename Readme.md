@@ -1,4 +1,4 @@
-# Metrics Service API
+# DeepTimer - A ReactNative CountDown Timer App
 
 ## How to use this repo
 
